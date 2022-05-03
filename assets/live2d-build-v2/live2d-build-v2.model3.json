@@ -1,0 +1,66 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "live2d-build-v2.moc3",
+		"Textures": [
+			"live2d-build-v2.1024/texture_00.png"
+		],
+		"Physics": "live2d-build-v2.physics3.json",
+		"DisplayInfo": "live2d-build-v2.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motion/miku_01.motion3.json"
+				},
+				{
+					"File": "motion/miku_04.motion3.json"
+				}
+			],
+			"TapHead": [
+				{
+					"File": "motion/miku_07.motion3.json"
+				},
+				{
+					"File": "motion/miku_02.motion3.json",
+					"Sound": "sounds/haru_normal_02.wav"
+				},
+				{
+					"File": "motion/miku_03.motion3.json"
+				},
+				{
+					"File": "motion/miku_05.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "motion/miku_08.motion3.json"
+				},
+				{
+					"File": "motion/miku_06.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Body"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Head"
+		}
+	]
+}
